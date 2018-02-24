@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9ccc65"
+    android:orientation="vertical"
+    android:weightSum="1">
+<!--
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_screen_pic" />-->
+
+    <com.ssaurel.canvasclock.ClockView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="#9ccc65"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:text="todays date"
+        android:textSize="30sp"
+        android:id="@+id/date"
+        android:textColor="#263238"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:onClick="file_upload"
+        android:textColor="#263238"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_ripple_effect"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Upload file"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:onClick="give_attendance"
+        android:textColor="#263238"
+        android:background="@drawable/custom_ripple_effect"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:text="Give attendance"
+        android:textSize="25sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8bc34a"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:text="Give Attendance!!"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="id"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:id="@+id/studentid_from_give_attendance_activity"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/studentName_from_give_attendance_activity"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:text="sajal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/no_from_giveAttendance_layout"
+            android:textAlignment="textEnd"
+            android:layout_marginLeft="10dp"
+            android:textColor="#33691e"
+            android:layout_weight="0.9"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:textSize="28sp" />
+        <TextView
+            android:id="@+id/yes_from_giveAttendance_layout"
+            android:layout_marginRight="0dp"
+            android:layout_weight="0.5"
+            android:text="Yes"
+            android:textStyle="bold"
+            android:textColor="#33691e"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

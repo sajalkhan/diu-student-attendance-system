@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9ccc65"
+    android:orientation="vertical">
+
+    <EditText
+
+        android:hint="Student name"
+        android:layout_marginTop="100dp"
+        android:id="@+id/update_name"
+        android:textColor="#546e7a"
+        android:textSize="20sp"
+        android:layout_marginLeft="18sp"
+        android:layout_marginRight="18sp"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_style2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/update_id"
+        android:layout_marginLeft="18sp"
+        android:layout_marginRight="18sp"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_style2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Student id"
+        android:textColor="#546e7a"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_ripple_effect"
+        android:id="@+id/upload_data"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="#263238"
+        android:textSize="30sp" />
+
+</LinearLayout>

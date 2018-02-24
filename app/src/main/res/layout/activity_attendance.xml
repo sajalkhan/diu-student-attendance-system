@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-com.newdeveloper.new_database_project"
+    android:layout_width="match_parent"
+    android:background="#9ccc65"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="32dp"
+        android:src="@drawable/giveattendance"
+        app:fabSize="normal"
+        app:fabelevation="6dp"
+        app:fabpressedTranslationZ="12dp" />
+
+</android.support.design.widget.CoordinatorLayout>

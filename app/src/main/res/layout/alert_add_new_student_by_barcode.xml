@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8bc34a"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Student!!"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <EditText
+        android:textColor="#e0e0e0"
+        android:id="@+id/Student_name_by_barcod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="15"
+        android:hint="Student name"
+        android:textSize="25sp" />
+
+    <EditText
+        android:textColor="#e0e0e0"
+        android:id="@+id/Student_Id_by_barcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="15"
+        android:hint="Student id"
+        android:text=""
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/no_from_barcode_layout"
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:textSize="28sp" />
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/yes_from_barcode_layout"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:text="Yes"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

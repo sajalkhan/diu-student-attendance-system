@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/header_id"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/head_time"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Choose Time period"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Class:"
+            android:textStyle="bold|italic"
+            android:textSize="20sp" />
+
+        <TextView
+            android:textStyle="bold|italic"
+            android:id="@+id/class_number"
+            android:textAlignment="textStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:textStyle="bold|italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="2"
+            android:padding="5dp"
+            android:text="Select All"
+            android:textAlignment="textEnd"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/select_all"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="0"
+            android:checked="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

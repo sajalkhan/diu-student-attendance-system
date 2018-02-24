@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:checked="true"
+            android:title="Give Attendance"
+            android:icon="@drawable/giveattendance"
+            android:id="@+id/nav_blank" />
+        <item
+            android:id="@+id/nav_show_graph"
+            android:icon="@drawable/graph"
+            android:title="Show Attendance Graph" />
+        <item
+            android:id="@+id/nav_barcode"
+            android:icon="@drawable/barcode"
+            android:title="Give Attendance By Barcode" />
+
+    </group>
+
+    <item android:title="Internal Marks Information">
+        <menu>
+            <item
+                android:id="@+id/nav_show_marks"
+                android:icon="@drawable/marks_icon"
+                android:title="View All Student Marks" />
+
+            <item
+                android:id="@+id/nav_mail"
+                android:icon="@drawable/mail_pic"
+                android:title="Send Attendance sheet"
+                >
+
+            </item>
+        </menu>
+    </item>
+
+</menu>
